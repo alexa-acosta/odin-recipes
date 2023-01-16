@@ -1,6 +1,16 @@
-.times {
+.centered {
+    text-align: center;
+}
+
+.left,
+.right {
+    padding: 1.5em 2em;
+}
+
+.times,
+.footer {
     font-family: 'Courier New', monospace;
-    margin: 2em 0em;
+    margin: 1em 0em;
 }
 
 .times span {
@@ -20,4 +30,19 @@
     background: url('https://www.svgrepo.com/show/52540/pot.svg') no-repeat;
     background-size: 25%;
     background-position: 5% 50%;
+}
+
+.col {
+    display: flex;
+    text-align: justify;
+}
+
+.col div {
+    flex: 1;
+}
+
+.left img {
+    height: 300px;
+    width: auto;
+    border-radius: 1em;
 }
