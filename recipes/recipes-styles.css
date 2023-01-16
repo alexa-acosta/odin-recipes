@@ -1,0 +1,23 @@
+.times {
+    font-family: 'Courier New', monospace;
+    margin: 2em 0em;
+}
+
+.times span {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 0.8em 0.8em 0.8em 2.5em;
+    margin: 0.5em;
+}
+
+#prep {
+    background: url('https://www.svgrepo.com/show/79446/knives.svg') no-repeat;
+    background-size: 20%;
+    background-position: 3% 50%;
+}
+
+#cook {
+    background: url('https://www.svgrepo.com/show/52540/pot.svg') no-repeat;
+    background-size: 25%;
+    background-position: 5% 50%;
+}
