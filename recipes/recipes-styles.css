@@ -1,5 +1,6 @@
 body {
     padding: 0em 1em;
+    background-color: #FFFDD0;
 }
 
 .centered {
@@ -37,6 +38,7 @@ body {
 #cook {
     background-size: 2em;
     background-position: 5% 50%;
+    background-color: #FFF;
 }
 
 .col {
@@ -69,6 +71,5 @@ body {
 
 .highlighted,
 .footer a {
-    color: white;
     text-decoration: none;
 }
